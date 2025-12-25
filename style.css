@@ -1,0 +1,89 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background: #0f0f0f;
+  color: #ffffff;
+}
+
+header {
+  background: linear-gradient(45deg, #ff0050, #00f2ea);
+  padding: 40px 20px;
+  text-align: center;
+}
+
+header h1 {
+  margin: 0;
+  font-size: 2.4rem;
+}
+
+header p {
+  margin-top: 10px;
+  font-size: 1.1rem;
+}
+
+.container {
+  max-width: 900px;
+  margin: auto;
+  padding: 20px;
+}
+
+.card {
+  background: #1b1b1b;
+  padding: 25px;
+  margin-top: 25px;
+  border-radius: 14px;
+  box-shadow: 0 6px 20px rgba(0,0,0,0.4);
+}
+
+.card h2 {
+  margin-top: 0;
+  color: #00f2ea;
+}
+
+ul {
+  padding-left: 20px;
+}
+
+.levels li {
+  list-style: none;
+  margin-bottom: 10px;
+  font-size: 1.1rem;
+}
+
+.levels li::before {
+  content: "✔ ";
+  color: #ff0050;
+}
+
+.button {
+  display: inline-block;
+  padding: 14px 22px;
+  background: #ff0050;
+  color: #fff;
+  text-decoration: none;
+  border-radius: 10px;
+  font-weight: bold;
+}
+
+.button:hover {
+  background: #e60045;
+}
+
+.ads {
+  text-align: center;
+  color: #aaa;
+  border: 2px dashed #333;
+}
+
+.note {
+  font-size: 0.9rem;
+  color: #bbb;
+  margin-top: 10px;
+}
+
+footer {
+  margin: 40px 0 20px;
+  text-align: center;
+  font-size: 0.85rem;
+  color: #aaa;
+}
